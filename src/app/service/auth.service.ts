@@ -20,4 +20,12 @@ export class AuthService {
   update(key: any, data: any) {
     return this.http.put(this.url + '/' + key, data);
   }
+  isLog() {
+    return sessionStorage.getItem('id') != null;
+  }
+  isLogrole() {
+    return sessionStorage.getItem('role') != null
+      ? sessionStorage.getItem('role')?.toString()
+      : '';
+  }
 }

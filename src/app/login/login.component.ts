@@ -30,7 +30,7 @@ export class LoginComponent {
 
         if (this.result.password === this.loginform.value.password) {
           if (this.result.isactive) {
-            sessionStorage.setItem('username', this.result.id);
+            sessionStorage.setItem('id', this.result.id);
             sessionStorage.setItem('role', this.result.role);
             this.router.navigate(['']);
           } else {

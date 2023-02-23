@@ -6,7 +6,7 @@
       "password": "Admin@123",
       "email": "admin@test.com",
       "gender": "male",
-      "role": "",
+      "role": "admin",
       "isactive": true
     }
   ]
