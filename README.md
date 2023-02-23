@@ -1,3 +1,8 @@
+<!-- ng add @angular/material -->
+<!-- npm install  ngx-toastr -save -->
+ <!-- "node_modules/ngx-toastr/toastr.css" -->
+<!-- ToastrModule.forRoot() -->
+
 # RoleBased
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
